@@ -1,0 +1,150 @@
+body{
+	margin: auto;
+	width: 640px;
+	padding: 50px;
+	background-color: RGB(253, 244, 227);
+	color: RGB(30, 30, 30)
+	font-family: Helvetica;
+}
+
+
+h1{
+	font-size: 48px;
+	font-weight: bold;
+	color: #FDF4E3
+}
+
+h2{
+	font-size: 24px;
+	font-weight: 800;
+	color: #1D442d; 
+}
+
+p{
+	font-family: Helvetica;
+	/*text-align: center;*/
+}
+
+a {
+  color: #1d442d;
+  text-decoration: none;
+  transition: color 0.4s ease;
+}
+a:hover {	
+  color: black;
+  text-decoration: bold;*/
+}
+
+
+/*div{
+	/*background: black;*/
+	/*border-top: 10px solid rgba(0, 0, 0, 0.1);
+	margin: 0px auto;
+	width: 400px;
+}*/
+
+
+#profile-pic {
+	border-radius: 500px;
+	max-width: 200px;
+	display: block;
+  /*width: 60%;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+}
+
+.container {
+	/*border-top: 10px solid rgba(0, 0, 0, 0.1);*/
+	width: 900px;
+	margin: 10px auto;
+}
+
+.card-white {
+	background-color: #FDF4E3;
+	border-radius: 15px;
+	box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.5);
+	margin: 15px auto;
+	padding: 40px;
+	font-family: Helvetica;
+	text-align: center;
+}
+
+/*.green-text {
+	color: #1d442d;
+}*/
+
+.card-green {
+	background-color: #1d442d;
+	border-radius: 15px;
+	box-shadow: 1px 5px 5px rgba(0, 0, 0, 1.0);
+	margin: 40px auto;
+	padding: 40px;
+	color: #FDF4E3;
+}
+
+
+.text-center {
+	text-align: center;
+}
+
+.italic {
+  font-style: italic;
+}
+
+
+.btn-green {
+	background: #FDF4E3;
+	border-radius: 10px;
+	color: #1d442d;
+	margin: 10px;
+	padding: 10px;
+	border: 3px solid green;
+	font-family: helvetica;
+}
+
+.btn-green:hover{
+	background: #e9dbc9;
+	color: #1d442d;
+
+}
+
+.link-grow {
+  transition: transform 0.2s 
+}
+
+.link-grow:hover {
+  transform: scale(1.2);
+}
+
+.list-in-line li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-in-line:hover li{
+	color: white;
+}
+
+/*img{
+	width: 300px;
+}*/
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;  
+   }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
